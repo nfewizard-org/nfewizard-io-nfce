@@ -294,7 +294,7 @@ class Utility {
     /**
      * Retorna a url correta do webservice
      */
-    getWebServiceUrl(metodo: string, ambienteNacional = false, versao = "", mod = "NFe"): string {
+    getWebServiceUrl(metodo: string, ambienteNacional = false, versao = "", mod = "NFCe"): string {
         let { chaveMae, chaveFilha } = this.setAmbiente(metodo, ambienteNacional, versao, mod);
         const urls = NFeServicosUrl as NFeServicosUrlType;
 

@@ -1,7 +1,6 @@
 export * from './EmailConfig'
 export * from './NFEAutorizacao'
 export * from './NFEDanfeGenerator'
-export * from './NFEDistribuicaoDFe'
 export * from './NFEInutilizacao'
 export * from './NFERecepcaoEvento'
 export * from './NFeWizard'

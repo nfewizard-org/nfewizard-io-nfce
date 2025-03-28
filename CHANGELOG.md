@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.3.16] - 2025-03-28
+
+### Changed
+- Move Modulo NFe para @nfewizard-io/nfe
+
 ## [0.3.14] - 2025-03-27
 
 ### Fixed

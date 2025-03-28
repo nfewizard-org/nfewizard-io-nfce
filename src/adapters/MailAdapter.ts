@@ -66,7 +66,7 @@ class MailController {
             const { email } = this.environment.getConfig();
 
             if (!email) {
-                throw new Error('Email não configurado. Para utilizar o envio de e-mail certifique-se de passar as configurações corretas para o método "NFE_LoadEnvironment".');
+                throw new Error('Email não configurado. Para utilizar o envio de e-mail certifique-se de passar as configurações corretas para o método "NFCE_LoadEnvironment".');
             }
 
             const transporter = this.createTransporter(email);

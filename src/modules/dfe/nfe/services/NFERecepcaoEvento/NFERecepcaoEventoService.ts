@@ -33,11 +33,10 @@ class NFERecepcaoEventoService extends BaseNFE implements NFERecepcaoEventoServi
     constructor(environment: Environment, utility: Utility, xmlBuilder: XmlBuilder, axios: AxiosInstance, saveFiles: SaveFilesImpl, gerarConsulta: GerarConsultaImpl) {
         super(environment, utility, xmlBuilder, 'RecepcaoEvento', axios, saveFiles, gerarConsulta);
         this.tpEvento = '';
-        this.modelo = 'NFe';
+        this.modelo = 'NFCe';
         this.xmlEventosNacionais = [];
         this.xmlEventosRegionais = [];
         this.xMotivoPorEvento = [];
-        console.log('constructor recepcao evento service');
     }
 
     /**

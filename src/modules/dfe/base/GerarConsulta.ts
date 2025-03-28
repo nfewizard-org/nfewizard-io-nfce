@@ -14,7 +14,7 @@ class GerarConsulta implements GerarConsultaImpl {
         this.xmlBuilder = xmlBuilder;
     }
 
-    async gerarConsulta(xmlConsulta: string, metodo: string, ambienteNacional = false, versao = "", mod = "NFe", rootTag: boolean = false, tag = "") {
+    async gerarConsulta(xmlConsulta: string, metodo: string, ambienteNacional = false, versao = "", mod = "NFCe", rootTag: boolean = false, tag = "") {
         try {
             const config = this.environment.getConfig();
             // Valida Schema
