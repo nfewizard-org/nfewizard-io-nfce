@@ -1,11 +1,11 @@
 {
-  "name": "nfewizard-io",
+  "name": "@nfewizard-io/nfce",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nfewizard-org/nfewizard-io"
+    "url": "https://github.com/nfewizard-org/nfewizard-io-nfce"
   },
-  "version": "0.3.15",
-  "description": "NFeWizard-io é uma biblioteca Node.js projetada para simplificar a interação com os webservices da SEFAZ, proporcionando uma solução robusta para automação de processos relacionados à Nota Fiscal Eletrônica (NF-e).",
+  "version": "1.0.0",
+  "description": "NFeWizard-io é uma biblioteca Node.js projetada para simplificar a interação com os webservices da SEFAZ, proporcionando uma solução robusta para automação de processos relacionados à Nota Fiscal Eletrônica (NFC-e).",
   "type": "module",
   "main": "./dist/cjs/index.cjs",
   "module": "./dist/esm/index.js",
@@ -24,11 +24,7 @@
     "dev": "tsx src/testes.ts",
     "test": "jest",
     "clean": "rm -rf dist",
-    "build": "node build.mjs",
-    "build:rp": "npm run clean && rollup -c",
-    "build:cjs": "tsc -p tsconfig.cjs.json",
-    "build:esm": "tsc -p tsconfig.esm.json",
-    "build:cjs-esm": "yarn build:cjs && yarn build:esm"
+    "build": "npm run clean && rollup -c"
   },
   "files": [
     "dist"
