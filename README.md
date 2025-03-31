@@ -1,9 +1,9 @@
 # NFeWizard-io - Módulo NFCe
 
 ## 🚧 Emissão NFe 🚧
-Para emissão e demais eventos de NFe utilize a lib `@nfewizard-io/nfe`
+Para emissão e demais eventos de NFe utilize a lib `nfewizard-io`
 ```typescript
-npm i @nfewizard-io/nfe
+npm i nfewizard-io
 ```
 
 ##  Sobre
@@ -117,7 +117,6 @@ await nfeWizard.NFCE_ConsultaStatusServico();
   
 
 ## Última Release (0.3.16)
-- Modulo de NFe movido para @nfewizard-io/nfe
 
 ## Observações
 
