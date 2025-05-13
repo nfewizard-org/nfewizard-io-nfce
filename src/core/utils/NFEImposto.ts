@@ -201,7 +201,7 @@ export const mountICMS = (icms: dadosICMS): ICMS => {
     if (CST?.trim()?.length > 0) {
         cod_sit = CST.length > 2 ? CST.substring(1, 3) : CST;
     } else if (CSOSN) {
-        cod_sit = String(CSOSN);
+        CSOSN?.trim()?.length > 3 ? cod_sit = CSOSN.substring(1, 4) : cod_sit = String(CSOSN);;
     }
     
 
